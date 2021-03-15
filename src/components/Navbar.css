@@ -1,0 +1,48 @@
+.Navbar{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftMenu > img{
+    height: 50px;
+    width: 50;
+    
+}
+.CenterMenu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+}
+.CenterMenu > li{
+    margin: 12px;
+    
+}
+
+.RightMenu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.RightMenu > li{
+    margin: 10px;
+    
+}
+.RightMenu > li > a{
+    text-decoration: none;
+    
+}
+.RightMenu > li > a > h4{
+    color: black;
+    
+}
+.RightMenu > li > a:hover{
+    color: white;
+}
+.CenterMenu > li >a:hover{
+    color: white;
+}
