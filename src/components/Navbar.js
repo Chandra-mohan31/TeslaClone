@@ -1,8 +1,9 @@
 import React from 'react';
 import "./Navbar.css";
 import MenuIcon from '@material-ui/icons/Menu';
+import {toggle} from "../utils/sidebar";
 
-function Navbar() {
+function Navbar({showSidebar}) {
     const LeftMenu = () => {
         return(
             <div className="leftMenu">
@@ -18,7 +19,7 @@ function Navbar() {
                 <ul className="RightMenu">
                     <li><a href="#" ><h3>Shop</h3></a></li>
                     <li><a href="#" ><h3>Tesla Account</h3></a></li>
-                    <li><a href="#" ><MenuIcon /></a></li>
+                    <li><a href="#" ><div onClick={toggle}><MenuIcon  /></div></a></li>
 
                 </ul>
             </div>

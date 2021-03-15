@@ -1,23 +1,35 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Navbar from "./Navbar";
 import "./Home.css";
+import Sidebar from './Sidebar';
 
 function Home() {
 
     const { innerWidth: width, innerHeight: height } = window;
 
-     
+    
+
     
     
+
     
     return (
+
         <div>
 
         
         <div className="Home" style={{height:height}} >
-           
              
-             <Navbar />
+             
+             <Navbar  />
+             
+             
+             <div className="sidebarView">
+
+             <div id="home__sidebar"><Sidebar /></div>
+
+             </div>
+             
              <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                  <h1 style={{marginTop:20}}>Roadster</h1>
              </div>

@@ -1,0 +1,18 @@
+.sidebar{
+    
+    margin-right: 10px;
+    background-color: white;
+    
+}
+.sidebar__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.sidebar > ul > li{
+    border-bottom: 1px solid black;
+}
+

@@ -7,3 +7,13 @@
     position: relative;
 
 }
+#home__sidebar{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    
+
+   
+}
+
