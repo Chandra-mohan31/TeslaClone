@@ -1,7 +1,15 @@
 .sidebar{
-    
-    margin-right: 10px;
+    position: fixed;
+    /* top: 0; */
+    margin-right: 0px;
+    width:180px;
     background-color: white;
+    text-align: center;
+    padding: 8px;
+    
+}
+.sidebar > h4 {
+    margin: 10px;
     
 }
 .sidebar__list{
@@ -11,8 +19,5 @@
     align-items: center;
     list-style-type: none;
     
-}
-.sidebar > ul > li{
-    border-bottom: 1px solid black;
 }
 
