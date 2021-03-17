@@ -5,5 +5,6 @@
     } else {
       x.style.display = "none";
       var xyz;
+      var abc;
     }
   }
