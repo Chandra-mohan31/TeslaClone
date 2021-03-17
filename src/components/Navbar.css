@@ -1,52 +1,57 @@
-.Navbar{
-    position: sticky;
+.Navbar {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
 }
-.leftMenu > img{
-    height: 50px;
-    width: 50;
-    
+
+.leftNav > img{
+    width: 100px;
+    height: 20px;
+    align-items: center;
 }
-.CenterMenu{
+
+.centerNav > ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    
-   
-
-}
-.CenterMenu > li{
-    margin: 12px;
 }
 
-.CenterMenu >li >a {
-    color: black;
-}
-
-.RightMenu{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.RightMenu > li{
-    margin: 10px;
-    
-}
-.RightMenu > li > a{
+.centerNav >ul > li > a{
     text-decoration: none;
+    margin: 10px;
+    font-weight: bolder;
     color: black;
 }
-.RightMenu > li > a > h4{
-    color: black;
-    
-}
-.RightMenu > li > a:hover{
+
+.centerNav >ul > li > a:hover{
     color: white;
 }
-.CenterMenu > li >a:hover{
+.rightNav {
+    margin-top: 15px;
+}
+.rightNav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightNav >ul > li > a{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+.rightNav >ul > li > a:hover{
     color: white;
 }
 
+.rightNav__icon {
+    color: black;
+}
+
+.rightNav__icon:hover {
+    color: rgb(255, 255, 255);
+}

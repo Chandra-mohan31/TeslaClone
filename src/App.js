@@ -1,13 +1,12 @@
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-
-
 import './App.css';
+import Home from "./Home"
 
 function App() {
   return (
-    <div className="App" >
+    <div className="App">
       <Home />
+      
+      <p>Roadster</p>
       
     </div>
   );
