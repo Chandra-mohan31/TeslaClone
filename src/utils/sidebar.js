@@ -4,6 +4,6 @@
       x.style.display = "flex";
     } else {
       x.style.display = "none";
-      var y;
+      var xyz;
     }
   }
