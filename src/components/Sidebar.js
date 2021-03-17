@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Sidebar.css";
-import CloseIcon from '@material-ui/icons/Close';
+// import CloseIcon from '@material-ui/icons/Close';
 
 
 function Sidebar() {
@@ -11,11 +11,11 @@ function Sidebar() {
 
             <h4>Model S</h4>
             <hr />
-            <h4>Model S</h4>
+            <h4>Model 3</h4>
             <hr />
-            <h4>Model S</h4>
+            <h4>Model x</h4>
             <hr />
-            <h4>Model S</h4>
+            <h4>Model y</h4>
             <hr />
             <h4>Model S</h4>
             <hr />

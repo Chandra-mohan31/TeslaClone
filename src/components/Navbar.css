@@ -19,7 +19,10 @@
 }
 .CenterMenu > li{
     margin: 12px;
-    
+}
+
+.CenterMenu >li >a {
+    color: black;
 }
 
 .RightMenu{
@@ -34,7 +37,7 @@
 }
 .RightMenu > li > a{
     text-decoration: none;
-    
+    color: black;
 }
 .RightMenu > li > a > h4{
     color: black;
